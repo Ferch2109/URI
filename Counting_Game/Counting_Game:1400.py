@@ -31,7 +31,6 @@ def counting( n, m, k ):
 
 for line in fileinput.input() :
 	n,m,k = map( int, line.split(" ") )
-	if n == m and m == k and k == 0 :
+	if ( n, m, k ) == ( 0, 0, 0 ) :
 		break
 	print(counting( n, m, k ) )
-		
