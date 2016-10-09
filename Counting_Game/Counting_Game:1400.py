@@ -24,6 +24,7 @@ def numberX( n, m, k ):
 					return j
 		j += 1
 		x += z
+		#
 		if j == 10000 :
 			return -1
 		
