@@ -2,7 +2,7 @@
 
 import fileinput
 
-def numberX( n, m, k ):
+def counting( n, m, k ):
 	repeat = 0
 	x = 1
 	z = 1
@@ -33,5 +33,5 @@ for line in fileinput.input() :
 	n,m,k = map( int, line.split(" ") )
 	if n == m and m == k and k == 0 :
 		break
-	print(numberX( n, m, k ) )
+	print(counting( n, m, k ) )
 		
